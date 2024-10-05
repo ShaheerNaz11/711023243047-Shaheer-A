@@ -1,0 +1,16 @@
+name: hello-world
+on : push
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
+      - name: study
+        run: echo "Artificial Intelligence"
+      - name: workshop
+        run: echo "DevOps workshop"
+      - name: memes
+        run: echo "Azhai kadal ennum thirandu vanthirukum!"
+      - name: vadivelu
+        run: echo "Welcome to Great Kirigalan Magic Show...!"
